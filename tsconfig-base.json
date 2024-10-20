@@ -7,9 +7,9 @@
     "esModuleInterop": true,
     "lib": ["esnext"],
     "strictNullChecks": true,
-    "strictFunctionTypes": false,
-    "rootDir": "src"
+    "strictFunctionTypes": false
+    //"rootDir": "src"
   },
-  "include": ["src"],
+  "include": ["src", "test"],
   "exclude": ["node_modules", "dist"]
 }
